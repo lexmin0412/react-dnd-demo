@@ -44,7 +44,7 @@ ReactDOM.render(
 									{
 										routes.map(route => <Route exact key={route.path} path={route.path}>
 											<Fragment>
-												<PageHeader title={route.title} />
+												{/* <PageHeader title={route.title} /> */}
 												<route.component />
 											</Fragment>
 										</Route>)

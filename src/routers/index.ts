@@ -1,5 +1,6 @@
 import Dashboard from "~/pages/Dashboard/Dashboard"
 import RuleManage from "~/pages/RuleManage/RuleManage"
+import Dnd from '~/pages/Dnd/index'
 
 const routes = [
 	{
@@ -16,6 +17,11 @@ const routes = [
 		title: '表格',
 		path: '/ruleManage',
 		component: RuleManage
+	},
+	{
+		title: '拖拽',
+		path: '/dnd',
+		component: Dnd
 	},
 ]
 

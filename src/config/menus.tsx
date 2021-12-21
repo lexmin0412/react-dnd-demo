@@ -14,6 +14,12 @@ const menuList = [
 		name: '表格+表单',
 		path: '/ruleManage',
 		children: []
+	},
+	{
+		icon: <EditOutlined />,
+		name: '拖拽',
+		path: '/dnd',
+		children: []
 	}
 ]
 
